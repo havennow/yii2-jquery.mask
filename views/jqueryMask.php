@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 JqueryMaskAsset::register($this);
 
-echo Html::activeInput($model, $attribute, $htmlOptions);
+echo Html::activeInput($type, $model, $attribute, $htmlOptions);
 
 $_id = Html::getInputId($model, $attribute);
 

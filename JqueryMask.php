@@ -9,6 +9,7 @@ use yii\helpers\Html;
 
 class JqueryMask extends Widget
 {
+    public $type = 'text';
     public $model;
     public $attribute;
     public $htmlOptions = [];
@@ -36,6 +37,7 @@ class JqueryMask extends Widget
 
         return $this->render('jqueryMask',
             [
+                'type' => $this->type,
                 'model' => $this->model,
                 'attribute' => $this->attribute,
                 'htmlOptions' => $this->htmlOptions,
