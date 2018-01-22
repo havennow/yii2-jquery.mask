@@ -1,0 +1,15 @@
+{
+    "name": "havennow/yii2-jquery.mask",
+    "description": "Widget wrapper for jquery.mask",
+    "type": "library",
+    "require": {
+        "igorescobar/jquery-mask-plugin": "^1.14"
+    },
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "havennow@gmail.com"
+        }
+    ]
+}
