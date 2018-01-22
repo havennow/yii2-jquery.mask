@@ -11,7 +11,7 @@ $_id = Html::getInputId($model, $attribute);
 
 $JS = <<< JS
 
-$('#{$id}').mask('{$mask}', {$options});
+$('#{$_id}').mask('{$mask}', {$options});
 
 JS;
 

@@ -12,7 +12,7 @@ class JqueryMask extends Widget
     public $type = 'text';
     public $model;
     public $attribute;
-    public $htmlOptions = [];
+    public $htmlOptions = ['class' => 'form-control'];
     public $mask;
     public $options;
 
