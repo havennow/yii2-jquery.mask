@@ -40,6 +40,7 @@ class JqueryMask extends Widget
                 'attribute' => $this->attribute,
                 'htmlOptions' => $this->htmlOptions,
                 'mask' => $this->mask,
-                'options' => $this->options,
+                'options' => (!empty($this->options)) ? json_encode($this->options) : '',
             ]);
     }
+}

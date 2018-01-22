@@ -7,15 +7,11 @@ JqueryMaskAsset::register($this);
 
 echo Html::activeInput($model, $attribute, $htmlOptions);
 
-$_options = '';
-if (!empty($options)) {
-    $_options = json_encode($options);
-}
 $_id = Html::getInputId($model, $attribute);
 
 $JS = <<< JS
 
-$('#{$id}').mask('{$mask}', {$_options});
+$('#{$id}').mask('{$mask}', {$options});
 
 JS;
 
