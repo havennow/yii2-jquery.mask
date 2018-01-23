@@ -5,7 +5,7 @@
     "require": {
         "igorescobar/jquery-mask-plugin": "^1.14"
     },
-    "license": "GPL v3",
+    "license": "MIT",
     "authors": [
         {
             "name": "Guilherme",
