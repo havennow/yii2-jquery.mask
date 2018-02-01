@@ -17,7 +17,7 @@ JS;
 
 $JS = <<< JS
 
-$('#{$_id}').mask('{$mask}', {$options});
+$('#{$_id}').mask('{$mask}');
 
 JS;
 
