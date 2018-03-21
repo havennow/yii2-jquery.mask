@@ -4,7 +4,7 @@ Widget wrapper for jquery mask https://igorescobar.github.io/jQuery-Mask-Plugin
 #Basic usage
 
 ```
-use havenno\widgets\JqueryMask;
+use havennow\widgets\JqueryMask;
 
 
 
